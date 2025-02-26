@@ -1,5 +1,6 @@
 <script>
 	import clientAuth from '$lib/auth';
+	import Button from '$lib/components/ui/button/button.svelte';
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -13,3 +14,6 @@
 		Sign in with ✨EdgeDB Built-in UI✨
 	</a>
 </div>
+
+I also have an custom ui
+<Button variant="outline" href="/signup">/signup</Button>
