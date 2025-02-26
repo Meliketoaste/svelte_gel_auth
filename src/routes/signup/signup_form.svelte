@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { trpc } from '$lib/trpc';
-
 	import * as Form from '$lib/components/ui/form/index.js';
 	import { Input } from '$lib/components/ui/input/index.js';
 	import { formSchema } from './schema';
