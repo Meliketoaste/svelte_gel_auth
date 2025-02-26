@@ -2,11 +2,11 @@ using extension auth;
 
 module default {
   global current_user := (
-		assert_single((
-    select User
-			filter .identity = global ext::auth::ClientTokenIdentity
-		))
-	);
+    assert_single((
+      select User
+      filter .identity = global ext::auth::ClientTokenIdentity
+    ))
+  );
 
 	type User {
     name: str;
